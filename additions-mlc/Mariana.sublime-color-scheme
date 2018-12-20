@@ -25,8 +25,8 @@
         //
 
         // Editor
-        "back": "#111213",
-        "back-comprimise": "color(#111213 blend(hsl(210, 15%, 24%) 67%))",
+        // "back": "#111213",
+        "back": "hsl(210, 80%, 7%)",
         "fore": "#C5C8C6",
 
         // VAMP
@@ -35,26 +35,29 @@
         "spectre": "#777",
         "fresh_blood": "#f00",
         "dried_blood": "#a20b0b",
+        
+        
+        "poke": "#0f0",
 
     },
     "globals":
     {
-        "foreground": "var(fore)",
-        "background": "var(back-comprimise)",
-        "caret": "var(fresh_blood)",
-        "selection": "var(dried_blood)",
-        "selection_border": "var(selection_border)",
-        "inactive_selection": "color(var(dried_blood) a(0.5))",
-        "line_highlight": "color(var(fresh_blood) a(0.2))",
-        "highlight": "var(dried_blood)",
-        "find_highlight": "var(dried_blood)",
-        "find_highlight_foreground": "var(my_yellow)",
-        "active_guide": "var(fresh_blood)",
-        "stack_guide": "var(my_orange)",
-        "accent": "var(my_orange)",
-        "misspelling": "var(dark_my_orange)",
-        "fold_marker": "var(my_yellow)",
-        "invisibles": "var(ether)",
+        "foreground":                "var(       fore             )",
+        "background":                "var(       back             )",
+        "caret":                     "var(       fresh_blood      )",
+        "selection":                 "var(       dried_blood      )",
+        "selection_border":          "var(       fresh_blood      )",
+        "inactive_selection":        "color(var( dried_blood      ) a(0.5))",
+        "line_highlight":            "color(var( fresh_blood      ) a(0.2))",
+        "highlight":                 "var(       dried_blood      )",
+        "find_highlight":            "var(       dried_blood      )",
+        "find_highlight_foreground": "var(       my_yellow        )",
+        "active_guide":              "var(       fresh_blood      )",
+        "stack_guide":               "var(       my_orange        )",
+        "accent":                    "var(       my_orange        )",
+        "misspelling":               "var(       dark_my_orange   )",
+        "fold_marker":               "var(       my_yellow        )",
+        "invisibles":                "var(       ether            )",
     },
 
     "rules": [
