@@ -1,6 +1,9 @@
 {
-    "font_face": "SF Mono",
-    "font_size": 14,
-    "theme": "Merge Dark.sublime-theme",
-    "draw_white_space": "all",
+	"draw_white_space": "all",
+	"expand_merge_commits_by_default": false,
+	"font_face": "SF Mono",
+	"font_size": 14,
+	"theme": "Merge Dark.sublime-theme",
+	"time_format": "24h",
+	"translate_tabs_to_spaces": true
 }
